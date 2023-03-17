@@ -1,0 +1,61 @@
+body{
+  background-color: rgb(37, 37, 94);
+  font-family: cursive;
+  text-align: center;
+}
+
+h1{
+  font-size: 5rem;
+  text-shadow: 2px 0 red;
+  color: aliceblue;
+  margin-bottom: 6rem;
+}
+
+button{
+  border-color: rgb(130, 130, 165);
+  border-style: solid;
+  border-width: 0.4rem;
+  border-radius: 0.8rem;
+  width: 9rem;
+  padding-top: 2rem;
+  margin: 2% 1% 0px;
+  font-family: cursive;
+  font-weight: bold;
+  color: rgb(254, 13, 61);
+  font-size: 4rem;
+}
+
+.w{
+  background-image: url(images/crash.png);
+}
+.a{
+  background-image: url(images/kick.png);
+}
+.s{
+  background-image: url(images/snare.png);
+}
+.d{
+  background-image: url(images/tom1.png);
+}
+.j{
+  background-image: url(images/tom2.png);
+}
+.k{
+  background-image: url(images/tom3.png);
+}
+.l{
+  background-image: url(images/tom4.png);
+}
+
+
+.pressed{
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+
+
+footer{
+  margin-top: 8rem;
+  color: aliceblue;
+}
